@@ -2,9 +2,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background: rgb(66, 66, 66);
+}
+.card-body{
+    background: rgb(63, 61, 61);
 }
 .card-text{
-    color: black;
+    background: rgb(63, 61, 61);
+}
+.card-title{
+    color: white;
 }
 .b{
     background: green;
