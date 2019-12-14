@@ -1,0 +1,19 @@
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-text{
+    color: black;
+}
+.b{
+    background: green;
+}
+.b:hover{
+    background: lightgreen;
+}
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}

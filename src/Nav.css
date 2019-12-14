@@ -1,0 +1,16 @@
+.navigation{
+    position: fixed;
+}
+.para{
+    float: left;
+    padding-top: 15px;
+}
+.navbar{
+    background: linear-gradient( black, rgb(54, 51, 51));
+}
+p{
+    color: white;
+}
+p:hover{
+    cursor: pointer;
+}

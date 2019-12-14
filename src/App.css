@@ -1,7 +1,26 @@
 .App {
   text-align: center;
 }
+.navigation{
+  position: fixed;
+}
+.para{
+  float: left;
+  padding-top: 15px;
+}
+.navbar{
+  background: linear-gradient( black, rgb(54, 51, 51));
 
+}
+.navdiv{
+  height: 70px;
+}
+p{
+  color: white;
+}
+p:hover{
+  cursor: pointer;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
