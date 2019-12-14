@@ -1,5 +1,5 @@
 import React from 'react';
-import './NewsCollection.css'
+
 import NewsCard from './NewsCard';
 const NewsCollection=({newsArray})=>{
     
