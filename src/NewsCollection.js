@@ -1,6 +1,6 @@
 import React from 'react';
-
 import NewsCard from './NewsCard';
+
 const NewsCollection=({newsArray})=>{
     
     return (
@@ -8,7 +8,7 @@ const NewsCollection=({newsArray})=>{
         <div className='tc'>
         
             {newsArray.map((news, index)=>{
-                return <NewsCard news={news}/>
+                return (<NewsCard news={news} key={index}/>);
             })
             }
         </div>
