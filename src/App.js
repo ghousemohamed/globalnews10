@@ -14,7 +14,7 @@ class App extends React.Component {
     }
   }
   fetchResponse =() => {
-    fetch('http://localhost:3000/pass', {
+    fetch('https://serene-taiga-79150.herokuapp.com/pass', {
             method: 'post',
             headers: {'Content-Type' : 'application/json'},
             body: JSON.stringify({
@@ -27,7 +27,7 @@ class App extends React.Component {
             .catch(err => console.log(err));
   }  
   refrshResponse =() => {
-    fetch('http://localhost:3000/pass', {
+    fetch('https://serene-taiga-79150.herokuapp.com/pass', {
             method: 'post',
             headers: {'Content-Type' : 'application/json'},
             body: JSON.stringify({
